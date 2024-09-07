@@ -1,5 +1,5 @@
-#created by DILBER
-#tottaly written by Mr DILBER
+#created by DEVI
+#tottaly written by Mr DEVI
 #!/usr/bin/python3
 #---------------------[IMPORT]---------------------#
 from bs4 import BeautifulSoup as sop
