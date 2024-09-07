@@ -36,7 +36,7 @@ os.system("espeak -a 300 \"Checking,Update,\"")
 time.sleep(2)
 #os.system('clear')
 print('\033[91;1m[\x1b[31;5;50m+\033[91;1m] \x1b[31;5;50mUPDATE VERSHON 6.1...! ')
-os.system("espeak -a 300 \"UPDATE VERSION 6.2,\"")
+os.system("espeak -a 300 \"UPDATE VERSION 8.2,\"")
 time.sleep(2)
 #os.system('clear')
 print("\033[95;1m[\x1b[35;5;50m+\033[97;1m]\x1b[35;5;50m SUBSCRIBE MY YOUTUBE CHANNEL..!")
@@ -280,7 +280,7 @@ def cek_apk(session,coki):
         print('\r[🎮] \033[1;92m ☆ Your Active Apps ☆ \033[1;91m: \033[1;96m')
         for i in range(len(game)):
             print("\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
-            #created by hbf team(owners) Adi & Hamii
+            #created by hbf team(owners) devi&king
     w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
