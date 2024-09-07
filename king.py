@@ -1,7 +1,7 @@
-created by Devi
-tottaly written by Mr DILBER
-!/usr/bin/python3
----------------------[IMPORT]---------------------#
+#created by DILBER
+#tottaly written by Mr DILBER
+#!/usr/bin/python3
+#---------------------[IMPORT]---------------------#
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as tred
 import os,sys,time,json,random,re,string,platform,base64,platform,uuid
@@ -27,25 +27,25 @@ os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install ch
 os.system('pip install httpx pip install beautifulsoup4')
 os.system('pip install requests ')
 os.system('pip install bs4')
-os.system('pip install rich')
-os.system('pip install urillb3')
+#os.system('pip install rich')
+#os.system('pip install urillb3')
 os.system("pkg install espeak")
-os.system("pkg update")
+#os.system("pkg update")
 print('\033[95;1m[\x1b[38;5;50m+\033[95;1m] \x1b[38;5;50mCHECKING UPDATE...? ')
 os.system("espeak -a 300 \"Checking,Update,\"")
 time.sleep(2)
-os.system('clear')
+#os.system('clear')
 print('\033[91;1m[\x1b[31;5;50m+\033[91;1m] \x1b[31;5;50mUPDATE VERSHON 6.1...! ')
 os.system("espeak -a 300 \"UPDATE VERSION 6.2,\"")
 time.sleep(2)
-os.system('clear')
+#os.system('clear')
 print("\033[95;1m[\x1b[35;5;50m+\033[97;1m]\x1b[35;5;50m SUBSCRIBE MY YOUTUBE CHANNEL..!")
 time.sleep(2)
 os.system("espeak -a 300 \"FOLLOW,MY, FACEBOOK, ACCOUNT,\"")
 os.system(f'xdg-open https://www.facebook.com/profile.php?id=100036118653131')
 
 time.sleep(5)
-----------[ IMPORT LIBRARY ]---------- ###
+###----------[ IMPORT LIBRARY ]---------- ###
 import requests
 import bs4 
 import sys
@@ -65,7 +65,7 @@ from concurrent.futures import ThreadPoolExecutor as ThreadPool
 from bs4 import BeautifulSoup as par
 from datetime import date
 from datetime import datetime
- from rich import print as printer
+# from rich import print as printer
 from datetime import date
 import marshal
 try:
@@ -99,9 +99,9 @@ YELLOW = '\033[1;33m'
 BLUE = '\033[1;34m'
 ORANGE = '\033[1;35m'
 BLACK="\033[1;30m"
-R = '{RED}' PUTIH
-G = '{GREEN}' PUTIH
-Y = '\033[1;33m'  PUTIH
+R = '{RED}' # PUTIH
+G = '{GREEN}' # PUTIH
+Y = '\033[1;33m' # PUTIH
 Q = '\033[1;37m'
 T = '\033[1;34m'
 HBF = '{ HBF }'
@@ -263,12 +263,12 @@ print('\033[1;97m═════════════════════
 print (' \t           \033[1;37m[ \033[1;32mINTRODUCTION \033[1;37m]')
 print('\033[1;97m══════════════════════════════════════════════════') 
 NameX =input('\033[1;97m[+]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \033[1;96m')
----------------------[LOOP MENU]---------------------#
+#---------------------[LOOP MENU]---------------------#
 loop = 0
 cp = []
 ok = []
 twf = []
----------------------[APPLICATION CHECKER]---------------------#
+#---------------------[APPLICATION CHECKER]---------------------#
 def cek_apk(session,coki):
     w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
@@ -277,10 +277,10 @@ def cek_apk(session,coki):
     if len(game)==0:
         print('\r\x1b[38;5;46m[\x1b[38;5;196m!\x1b[38;5;46m] \033[1;93mSorry there is no Active  Apk')
     else:
-        print('\r[🩷] \033[1;92m ☆ Your Active Apps ☆ \033[1;91m: \033[1;96m')
+        print('\r[🎮] \033[1;92m ☆ Your Active Apps ☆ \033[1;91m: \033[1;96m')
         for i in range(len(game)):
             print("\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
-            created by hbf team(owners) devi & king
+            #created by hbf team(owners) Adi & Hamii
     w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
@@ -299,7 +299,7 @@ def follow(ses,coki):
     get = r.find('a', string='Follow').get('href')
     ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
  
----------------------[MAIN MENU]---------------------#
+#---------------------[MAIN MENU]---------------------#
 def main():
     clear()
     os.getuid
@@ -721,7 +721,7 @@ def freeq(uid,pwx,tl):
         sys.stdout.flush()
     except:
         pass
----------------------[END MENU]---------------------#
+#---------------------[END MENU]---------------------#
 if __name__ == '__main__':
     main()
  
